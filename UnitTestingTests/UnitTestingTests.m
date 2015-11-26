@@ -62,4 +62,14 @@
 
 }
 
+- (void)testTest
+{
+    TimeChange *change = [[TimeChange alloc]init];
+    NSString *string = [change testExport];
+    
+    XCTAssert([string isEqualToString:@"Hi Enoch"], @"Pass");
+
+    
+}
+
 @end
