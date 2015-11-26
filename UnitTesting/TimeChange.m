@@ -132,4 +132,10 @@
     return [TimeChange binaryTo64String:week10MinStr];
 }
 
+- (NSString *)testExport
+{
+    
+    return @"Hi Enoch";
+}
+
 @end

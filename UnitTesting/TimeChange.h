@@ -13,5 +13,6 @@
 
 + (NSString *)binaryTo64String:(NSString *)binary;
 + (NSString *)weekTimeTo64BitStringSrateDay:(int)startDay StartTime:(NSString *)startTime EndDay:(int)endDay EndTime:(NSString *)endTime;
+- (NSString *)testExport;
 
 @end
